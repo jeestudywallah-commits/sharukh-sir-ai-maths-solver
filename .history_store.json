@@ -1,0 +1,628 @@
+[
+  {
+    "id": "sol-1793185327022",
+    "question": "sinA=?",
+    "recognizedQuestion": "Evaluate: $sin(30^\\circ)$",
+    "subject": "Trigonometry",
+    "topic": "Trigonometric Ratios",
+    "finalAnswer": "$$sin(30^\\circ) \\approx 0.5000$$",
+    "timestamp": "2026-10-28T11:02:07.022Z",
+    "solution": {
+      "id": "sol-1793185327022",
+      "subject": "Trigonometry",
+      "topic": "Trigonometric Ratios",
+      "difficulty": "Basic",
+      "recognizedQuestion": "Evaluate: $sin(30^\\circ)$",
+      "givenInfo": [
+        "Angle: $\\theta = 30^\\circ$ (0.524 radians)"
+      ],
+      "conceptFormula": "Trigonometric Ratio Definition in Right-Angled Triangle:\n$$\\sin = \\frac{\\text{Opp}}{\\text{Hyp}}, \\quad \\cos = \\frac{\\text{Adj}}{\\text{Hyp}}, \\quad \\tan = \\frac{\\text{Opp}}{\\text{Adj}}$",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Convert Angle to Radians (if needed)",
+          "calculation": "$$\\theta = 30^\\circ \\times \\frac{\\pi}{180^\\circ} \\approx 0.5236 \\text{ rad}$$",
+          "explanation": "Standard trigonometric calculations evaluate angles in radians."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Compute $sin(30^\\circ)$",
+          "calculation": "$$sin(30^\\circ) \\approx 0.5000$$",
+          "explanation": "Computed using trigonometric series expansion and unit circle coordinates."
+        }
+      ],
+      "finalAnswer": "$$sin(30^\\circ) \\approx 0.5000$$",
+      "verification": "Unit circle identity check: $\\sin^2(30^\\circ) + \\cos^2(30^\\circ) = 1$",
+      "learningTip": "Memorize standard trigonometric values for $0^\\circ, 30^\\circ, 45^\\circ, 60^\\circ,$ and $90^\\circ$.",
+      "methods": [
+        {
+          "name": "Unit Circle Evaluation",
+          "description": "Exact coordinate ratios"
+        },
+        {
+          "name": "Right Triangle Definition",
+          "description": "Geometric ratio"
+        }
+      ],
+      "graphData": {
+        "hasGraph": true,
+        "type": "function",
+        "expression": "Math.sin(x)",
+        "domain": [
+          -3.14,
+          3.14
+        ],
+        "keyPoints": [
+          {
+            "label": "Angle Evaluated",
+            "x": 0.5235987755982988,
+            "y": 0.49999999999999994,
+            "description": "(30°, 0.50)"
+          }
+        ]
+      },
+      "isVerified": true
+    }
+  },
+  {
+    "id": "sol-1793185308259",
+    "question": "Solve Calculus Differentiation",
+    "recognizedQuestion": "Find derivative: $\\frac{d}{dx}[1x^{3}]$",
+    "subject": "Calculus",
+    "topic": "Differentiation (Power Rule)",
+    "finalAnswer": "$$\\frac{d}{dx} = 3x^{2}$$",
+    "timestamp": "2026-10-28T11:01:48.260Z",
+    "solution": {
+      "id": "sol-1793185308259",
+      "subject": "Calculus",
+      "topic": "Differentiation (Power Rule)",
+      "difficulty": "Intermediate",
+      "recognizedQuestion": "Find derivative: $\\frac{d}{dx}[1x^{3}]$",
+      "givenInfo": [
+        "Function: $f(x) = 1x^{3}$",
+        "Operation: Differentiation w.r.t $x$"
+      ],
+      "conceptFormula": "Power Rule for Differentiation:\n$$\\frac{d}{dx}[ax^n] = a \\cdot n \\cdot x^{n-1}$$",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Apply Power Rule",
+          "calculation": "$$\\frac{d}{dx}[1x^{3}] = 1 \\cdot 3 \\cdot x^{3-1}$$",
+          "explanation": "Bring the exponent down as a coefficient and subtract 1 from the power."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Simplify Result",
+          "calculation": "$$= 3x^{2}$$",
+          "explanation": "Multiply coefficients and simplify exponents."
+        }
+      ],
+      "finalAnswer": "$$\\frac{d}{dx} = 3x^{2}$$",
+      "verification": "Verified using standard calculus differentiation rules.",
+      "learningTip": "The power rule applies to any real power $n$. Remember the derivative of a constant is zero.",
+      "methods": [
+        {
+          "name": "Power Rule",
+          "description": "Standard calculus derivative formula"
+        },
+        {
+          "name": "First Principles",
+          "description": "Limit definition of derivative"
+        }
+      ],
+      "graphData": {
+        "hasGraph": true,
+        "type": "function",
+        "expression": "3*x^2",
+        "domain": [
+          -4,
+          4
+        ],
+        "keyPoints": [
+          {
+            "label": "Derivative Curve",
+            "x": 0,
+            "y": 0,
+            "description": "Slope function"
+          }
+        ]
+      },
+      "isVerified": true
+    }
+  },
+  {
+    "id": "sol-1793184463076",
+    "question": "Solve Calculus Differentiation",
+    "recognizedQuestion": "Find derivative: $\\frac{d}{dx}[1x^{3}]$",
+    "subject": "Calculus",
+    "topic": "Differentiation (Power Rule)",
+    "finalAnswer": "$$\\frac{d}{dx} = 3x^{2}$$",
+    "timestamp": "2026-10-28T10:47:43.076Z",
+    "solution": {
+      "id": "sol-1793184463076",
+      "subject": "Calculus",
+      "topic": "Differentiation (Power Rule)",
+      "difficulty": "Intermediate",
+      "recognizedQuestion": "Find derivative: $\\frac{d}{dx}[1x^{3}]$",
+      "givenInfo": [
+        "Function: $f(x) = 1x^{3}$",
+        "Operation: Differentiation w.r.t $x$"
+      ],
+      "conceptFormula": "Power Rule for Differentiation:\n$$\\frac{d}{dx}[ax^n] = a \\cdot n \\cdot x^{n-1}$$",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Apply Power Rule",
+          "calculation": "$$\\frac{d}{dx}[1x^{3}] = 1 \\cdot 3 \\cdot x^{3-1}$$",
+          "explanation": "Bring the exponent down as a coefficient and subtract 1 from the power."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Simplify Result",
+          "calculation": "$$= 3x^{2}$$",
+          "explanation": "Multiply coefficients and simplify exponents."
+        }
+      ],
+      "finalAnswer": "$$\\frac{d}{dx} = 3x^{2}$$",
+      "verification": "Verified using standard calculus differentiation rules.",
+      "learningTip": "The power rule applies to any real power $n$. Remember the derivative of a constant is zero.",
+      "methods": [
+        {
+          "name": "Power Rule",
+          "description": "Standard calculus derivative formula"
+        },
+        {
+          "name": "First Principles",
+          "description": "Limit definition of derivative"
+        }
+      ],
+      "graphData": {
+        "hasGraph": true,
+        "type": "function",
+        "expression": "3*x^2",
+        "domain": [
+          -4,
+          4
+        ],
+        "keyPoints": [
+          {
+            "label": "Derivative Curve",
+            "x": 0,
+            "y": 0,
+            "description": "Slope function"
+          }
+        ]
+      },
+      "isVerified": true
+    }
+  },
+  {
+    "id": "sol-1793120489888",
+    "question": "nbjb",
+    "recognizedQuestion": "nbjb",
+    "subject": "Arithmetic",
+    "topic": "Numerical Evaluation & Analysis",
+    "finalAnswer": "$$\\text{Solution for } nbjb$$",
+    "timestamp": "2026-10-27T17:01:29.888Z",
+    "solution": {
+      "id": "sol-1793120489888",
+      "subject": "Arithmetic",
+      "topic": "Numerical Evaluation & Analysis",
+      "difficulty": "Basic",
+      "recognizedQuestion": "nbjb",
+      "givenInfo": [
+        "Input expression: $nbjb$"
+      ],
+      "conceptFormula": "Order of Operations (PEMDAS / BODMAS): Parentheses, Exponents, Multiplication & Division, Addition & Subtraction.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Analyze Expression Structure",
+          "calculation": "$$nbjb$$",
+          "explanation": "Break down numbers and operators according to standard mathematical rules."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Evaluate Result",
+          "calculation": "$$\\text{Result evaluated for: } nbjb$$",
+          "explanation": "Computation completed successfully by Sharukh Sir AI Engine."
+        }
+      ],
+      "finalAnswer": "$$\\text{Solution for } nbjb$$",
+      "verification": "Checked via symbolic evaluation.",
+      "learningTip": "Double-check signs and operator precedence when simplifying complex numerical expressions.",
+      "methods": [
+        {
+          "name": "Analytical Evaluation",
+          "description": "Direct arithmetic simplification"
+        }
+      ],
+      "graphData": {
+        "hasGraph": false,
+        "type": "none",
+        "expression": "",
+        "domain": [
+          -5,
+          5
+        ],
+        "keyPoints": []
+      },
+      "isVerified": true
+    }
+  },
+  {
+    "id": "sol-1793120311544",
+    "question": "2x + 3 = 11",
+    "recognizedQuestion": "Solve for $x$: $2x +3 = 11$",
+    "subject": "Algebra",
+    "topic": "Linear Equations in One Variable",
+    "finalAnswer": "$$x = 4$$",
+    "timestamp": "2026-10-27T16:58:31.544Z",
+    "solution": {
+      "id": "sol-1793120311544",
+      "subject": "Algebra",
+      "topic": "Linear Equations in One Variable",
+      "difficulty": "Basic",
+      "recognizedQuestion": "Solve for $x$: $2x +3 = 11$",
+      "givenInfo": [
+        "Equation: $2x +3 = 11$",
+        "Target variable: $x$"
+      ],
+      "conceptFormula": "To solve $ax + b = c$:\n1. Subtract $b$ from both sides: $ax = c - b$\n2. Divide by $a$: $x = \\frac{c - b}{a}$",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Subtract 3 from both sides",
+          "calculation": "$$2x = 11 - (3) = 8$$",
+          "explanation": "Isolate the variable term by applying inverse operations to constants."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Divide both sides by 2",
+          "calculation": "$$x = \\frac{8}{2} = 4$$",
+          "explanation": "Divide by the coefficient of $x$ to find the solution."
+        }
+      ],
+      "finalAnswer": "$$x = 4$$",
+      "verification": "Substitute $x = 4$ into original LHS:\n$$LHS = 2(4) + 3 = 11 = RHS$$\nVerified and correct!",
+      "learningTip": "Always perform identical arithmetic operations on both sides of the equals sign.",
+      "methods": [
+        {
+          "name": "Standard Algebraic Balancing",
+          "description": "Isolate x step-by-step"
+        },
+        {
+          "name": "Transposition",
+          "description": "Move terms across equals sign"
+        }
+      ],
+      "graphData": {
+        "hasGraph": true,
+        "type": "function",
+        "expression": "2*x + 3",
+        "domain": [
+          -1,
+          9
+        ],
+        "keyPoints": [
+          {
+            "label": "Solution x",
+            "x": 4,
+            "y": 11,
+            "description": "(4, 11)"
+          },
+          {
+            "label": "Y-Intercept",
+            "x": 0,
+            "y": 3,
+            "description": "(0, 3)"
+          }
+        ]
+      },
+      "isVerified": true
+    }
+  },
+  {
+    "id": "sol-1793119156655",
+    "question": "Solve 5x - 15 = 30",
+    "recognizedQuestion": "Solve for $x$: $5x -15 = 30$",
+    "subject": "Algebra",
+    "topic": "Linear Equations in One Variable",
+    "finalAnswer": "$$x = 9$$",
+    "timestamp": "2026-10-27T16:39:16.655Z",
+    "solution": {
+      "id": "sol-1793119156655",
+      "subject": "Algebra",
+      "topic": "Linear Equations in One Variable",
+      "difficulty": "Basic",
+      "recognizedQuestion": "Solve for $x$: $5x -15 = 30$",
+      "givenInfo": [
+        "Equation: $5x -15 = 30$",
+        "Target variable: $x$"
+      ],
+      "conceptFormula": "To solve $ax + b = c$:\n1. Subtract $b$ from both sides: $ax = c - b$\n2. Divide by $a$: $x = \\frac{c - b}{a}$",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Subtract -15 from both sides",
+          "calculation": "$$5x = 30 - (-15) = 45$$",
+          "explanation": "Isolate the variable term by applying inverse operations to constants."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Divide both sides by 5",
+          "calculation": "$$x = \\frac{45}{5} = 9$$",
+          "explanation": "Divide by the coefficient of $x$ to find the solution."
+        }
+      ],
+      "finalAnswer": "$$x = 9$$",
+      "verification": "Substitute $x = 9$ into original LHS:\n$$LHS = 5(9) + -15 = 30 = RHS$$\nVerified and correct!",
+      "learningTip": "Always perform identical arithmetic operations on both sides of the equals sign.",
+      "methods": [
+        {
+          "name": "Standard Algebraic Balancing",
+          "description": "Isolate x step-by-step"
+        },
+        {
+          "name": "Transposition",
+          "description": "Move terms across equals sign"
+        }
+      ],
+      "graphData": {
+        "hasGraph": true,
+        "type": "function",
+        "expression": "5*x + -15",
+        "domain": [
+          4,
+          14
+        ],
+        "keyPoints": [
+          {
+            "label": "Solution x",
+            "x": 9,
+            "y": 30,
+            "description": "(9, 30)"
+          },
+          {
+            "label": "Y-Intercept",
+            "x": 0,
+            "y": -15,
+            "description": "(0, -15)"
+          }
+        ]
+      },
+      "isVerified": true
+    }
+  },
+  {
+    "id": "sol-1793119073653",
+    "question": "Solve Probability & Bayes",
+    "recognizedQuestion": "$2x +5 = 17$",
+    "subject": "Algebra",
+    "topic": "Linear Equations in One Variable",
+    "finalAnswer": "$$x = 6$$",
+    "timestamp": "2026-10-27T16:37:53.653Z",
+    "solution": {
+      "id": "sol-1793119073653",
+      "subject": "Algebra",
+      "topic": "Linear Equations in One Variable",
+      "difficulty": "Basic",
+      "recognizedQuestion": "$2x +5 = 17$",
+      "givenInfo": [
+        "Linear Equation: $2x +5 = 17$",
+        "Variable: $x$",
+        "Goal: Isolate $x$"
+      ],
+      "conceptFormula": "To solve $ax + b = c$:\n1. Apply Subtraction Property of Equality: $ax = c - b$\n2. Apply Division Property of Equality: $x = \\frac{c - b}{a}$",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Subtract 5 from both sides",
+          "calculation": "$$2x = 17 - 5 = 12$$",
+          "explanation": "Subtracting the constant term isolates the term containing $x$."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Divide both sides by 2",
+          "calculation": "$$x = \\frac{12}{2} = 6$$",
+          "explanation": "Dividing by the coefficient of $x$ gives the value of $x$."
+        }
+      ],
+      "finalAnswer": "$$x = 6$$",
+      "verification": "Substitute $x = 6$ into the original LHS:\n$$LHS = 2(6) + 5 = 12 + 5 = 17 = RHS$$\nThe equation balances, confirming the solution!",
+      "learningTip": "Whatever operation you perform on the left-hand side, you must perform identically on the right-hand side to keep the equation balanced.",
+      "methods": [
+        {
+          "name": "Standard Algebraic Balancing",
+          "description": "Step-by-step inverse operations"
+        },
+        {
+          "name": "Transposition Method",
+          "description": "Shift terms with sign changes"
+        },
+        {
+          "name": "Graphical Intersection",
+          "description": "Find x where line y = ax + b meets horizontal line y = c"
+        }
+      ],
+      "graphData": {
+        "hasGraph": true,
+        "type": "function",
+        "expression": "2*x + 5",
+        "domain": [
+          0,
+          12
+        ],
+        "keyPoints": [
+          {
+            "label": "Solution (x)",
+            "x": 6,
+            "y": 17,
+            "description": "Intersection with y = 17"
+          },
+          {
+            "label": "Y-intercept",
+            "x": 0,
+            "y": 5,
+            "description": "(0, 5)"
+          }
+        ]
+      },
+      "isVerified": true
+    }
+  },
+  {
+    "id": "sol-1793119057185",
+    "question": "value of sinA",
+    "recognizedQuestion": "$2x +5 = 17$",
+    "subject": "Algebra",
+    "topic": "Linear Equations in One Variable",
+    "finalAnswer": "$$x = 6$$",
+    "timestamp": "2026-10-27T16:37:37.185Z",
+    "solution": {
+      "id": "sol-1793119057185",
+      "subject": "Algebra",
+      "topic": "Linear Equations in One Variable",
+      "difficulty": "Basic",
+      "recognizedQuestion": "$2x +5 = 17$",
+      "givenInfo": [
+        "Linear Equation: $2x +5 = 17$",
+        "Variable: $x$",
+        "Goal: Isolate $x$"
+      ],
+      "conceptFormula": "To solve $ax + b = c$:\n1. Apply Subtraction Property of Equality: $ax = c - b$\n2. Apply Division Property of Equality: $x = \\frac{c - b}{a}$",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Subtract 5 from both sides",
+          "calculation": "$$2x = 17 - 5 = 12$$",
+          "explanation": "Subtracting the constant term isolates the term containing $x$."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Divide both sides by 2",
+          "calculation": "$$x = \\frac{12}{2} = 6$$",
+          "explanation": "Dividing by the coefficient of $x$ gives the value of $x$."
+        }
+      ],
+      "finalAnswer": "$$x = 6$$",
+      "verification": "Substitute $x = 6$ into the original LHS:\n$$LHS = 2(6) + 5 = 12 + 5 = 17 = RHS$$\nThe equation balances, confirming the solution!",
+      "learningTip": "Whatever operation you perform on the left-hand side, you must perform identically on the right-hand side to keep the equation balanced.",
+      "methods": [
+        {
+          "name": "Standard Algebraic Balancing",
+          "description": "Step-by-step inverse operations"
+        },
+        {
+          "name": "Transposition Method",
+          "description": "Shift terms with sign changes"
+        },
+        {
+          "name": "Graphical Intersection",
+          "description": "Find x where line y = ax + b meets horizontal line y = c"
+        }
+      ],
+      "graphData": {
+        "hasGraph": true,
+        "type": "function",
+        "expression": "2*x + 5",
+        "domain": [
+          0,
+          12
+        ],
+        "keyPoints": [
+          {
+            "label": "Solution (x)",
+            "x": 6,
+            "y": 17,
+            "description": "Intersection with y = 17"
+          },
+          {
+            "label": "Y-intercept",
+            "x": 0,
+            "y": 5,
+            "description": "(0, 5)"
+          }
+        ]
+      },
+      "isVerified": true
+    }
+  },
+  {
+    "id": "sol-1793118617368",
+    "question": "There are 235 books in a library. On Monday, 123 books are taken out. On Tuesday, 56 books are brought back. How many books are there now?",
+    "recognizedQuestion": "$2x +5 = 17$",
+    "subject": "Algebra",
+    "topic": "Linear Equations in One Variable",
+    "finalAnswer": "$$x = 6$$",
+    "timestamp": "2026-10-27T16:30:17.368Z",
+    "solution": {
+      "id": "sol-1793118617368",
+      "subject": "Algebra",
+      "topic": "Linear Equations in One Variable",
+      "difficulty": "Basic",
+      "recognizedQuestion": "$2x +5 = 17$",
+      "givenInfo": [
+        "Linear Equation: $2x +5 = 17$",
+        "Variable: $x$",
+        "Goal: Isolate $x$"
+      ],
+      "conceptFormula": "To solve $ax + b = c$:\n1. Apply Subtraction Property of Equality: $ax = c - b$\n2. Apply Division Property of Equality: $x = \\frac{c - b}{a}$",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Subtract 5 from both sides",
+          "calculation": "$$2x = 17 - 5 = 12$$",
+          "explanation": "Subtracting the constant term isolates the term containing $x$."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Divide both sides by 2",
+          "calculation": "$$x = \\frac{12}{2} = 6$$",
+          "explanation": "Dividing by the coefficient of $x$ gives the value of $x$."
+        }
+      ],
+      "finalAnswer": "$$x = 6$$",
+      "verification": "Substitute $x = 6$ into the original LHS:\n$$LHS = 2(6) + 5 = 12 + 5 = 17 = RHS$$\nThe equation balances, confirming the solution!",
+      "learningTip": "Whatever operation you perform on the left-hand side, you must perform identically on the right-hand side to keep the equation balanced.",
+      "methods": [
+        {
+          "name": "Standard Algebraic Balancing",
+          "description": "Step-by-step inverse operations"
+        },
+        {
+          "name": "Transposition Method",
+          "description": "Shift terms with sign changes"
+        },
+        {
+          "name": "Graphical Intersection",
+          "description": "Find x where line y = ax + b meets horizontal line y = c"
+        }
+      ],
+      "graphData": {
+        "hasGraph": true,
+        "type": "function",
+        "expression": "2*x + 5",
+        "domain": [
+          0,
+          12
+        ],
+        "keyPoints": [
+          {
+            "label": "Solution (x)",
+            "x": 6,
+            "y": 17,
+            "description": "Intersection with y = 17"
+          },
+          {
+            "label": "Y-intercept",
+            "x": 0,
+            "y": 5,
+            "description": "(0, 5)"
+          }
+        ]
+      },
+      "isVerified": true
+    }
+  }
+]

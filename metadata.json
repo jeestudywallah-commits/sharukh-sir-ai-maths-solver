@@ -1,0 +1,6 @@
+{
+  "name": "Sharukh Sir AI Maths Solver",
+  "description": "Official AI-powered mathematics learning platform by Sharukh Sir. Understand Maths. Solve Smarter.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

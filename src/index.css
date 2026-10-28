@@ -1,0 +1,50 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    background-color: #F5F0E2;
+    color: #172321;
+    font-family: 'Plus Jakarta Sans', 'Manrope', system-ui, -apple-system, sans-serif;
+  }
+}
+
+/* Custom scrollbars */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #F5F0E2;
+}
+::-webkit-scrollbar-thumb {
+  background: #07869A33;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #07869A66;
+}
+
+/* KaTeX custom sizing & overflow wrap */
+.katex-display {
+  overflow-x: auto;
+  overflow-y: hidden;
+  padding: 0.5rem 0;
+  margin: 0.5rem 0 !important;
+}
+
+.katex {
+  font-size: 1.1em;
+  text-rendering: optimizeLegibility;
+}
+
+/* MathVik Custom Tokens */
+.bg-mathvik-bg { background-color: #F5F0E2; }
+.bg-mathvik-surface { background-color: #FBF8EF; }
+.bg-mathvik-teal { background-color: #07869A; }
+.bg-mathvik-teal-deep { background-color: #066F80; }
+.text-mathvik-primary { color: #172321; }
+.text-mathvik-secondary { color: #53635F; }
+.border-mathvik { border-color: #E2D9C4; }
+.bg-mathvik-mint { background-color: #E5F0E6; }
+.text-mathvik-coral { color: #E83B35; }
+.bg-mathvik-coral { background-color: #E83B35; }
